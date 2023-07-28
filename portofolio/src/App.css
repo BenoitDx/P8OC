@@ -40,3 +40,10 @@ body {
     transform: rotate(360deg);
   }
 }
+body {
+  background-image: url('./asset/backgroundcolor.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}

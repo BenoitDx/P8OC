@@ -1,6 +1,45 @@
-.Header-container{
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- 
+/* Header.css */
+.Header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+  .header-logo img {
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .header-logo h1 {
+      margin-left: 10px}
+  
+  nav {
+    display: flex;
+    align-items: center; /* Centrer verticalement les éléments du menu */
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Utilisez flex pour aligner les éléments de menu horizontalement */
+    flex-direction: row; /* Définir le sens du flex en ligne (horizontalement) */
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  nav ul li a {
+  color: inherit; /* Utilisez "inherit" pour conserver la couleur par défaut du texte */
+  text-decoration: none; /* Supprimez le soulignement des liens */
 }
