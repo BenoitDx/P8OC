@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+/* Dans votre fichier CSS */
+body {
+  font-family: 'VotreTypographie', sans-serif; /* Remplacez "VotreTypographie" par le nom de votre typographie */
+}
 
 .App-logo {
   height: 40vmin;
