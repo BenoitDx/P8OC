@@ -43,3 +43,10 @@
   color: inherit; /* Utilisez "inherit" pour conserver la couleur par défaut du texte */
   text-decoration: none; /* Supprimez le soulignement des liens */
 }
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3; /* Assurez-vous que le header est au-dessus du contenu et des étoiles */
+  }

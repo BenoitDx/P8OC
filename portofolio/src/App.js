@@ -1,37 +1,27 @@
 import React from 'react';
+import '@fortawesome/fontawesome-free/css/all.css';
 import Header from './components/Header';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 import ContactForm from './components/ContactForm';
+import DeveloperPresentation from './components/Welcome';
 import './styles/global.css'; // Importer le fichier global.css
+import './styles/stars.scss'; // Importer le fichier stars.scss
 
-const App = () => {
+function App() {
   return (
-    <div className="background-container">
-      {/* Éléments de fond animés */}
-      <div className="area">
-        <ul className="circles">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+    <div>
+      <div className="stars">
+        <div className="star"></div>
+        <div className="star"></div>
+        <div className="star"></div>
+        {/* Ajoutez les autres étoiles ici */}
       </div>
-
-      {/* Contenu de votre application */}
-      <div style={{ position: 'relative', zIndex: 1 }}>
         <Header />
+        <DeveloperPresentation />
         <ContactForm />
         <Footer />
-      </div>
     </div>
   );
-};
+}
 
 export default App;
-
