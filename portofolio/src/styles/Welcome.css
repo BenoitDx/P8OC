@@ -1,0 +1,30 @@
+.Welcome-container {
+    margin: 32px;
+    display: flex;
+    flex-direction: row;
+} 
+.Welcome-img {
+    border-radius: 50%;
+}
+.typewriter {
+    overflow: hidden; /* Pour cacher le texte complet */
+    border: 1px solid #000; /* Pour l'apparence du texte "tapé" */
+    white-space: nowrap; /* Pour éviter le retour à la ligne */
+    width: fit-content; /* Ajuster la largeur au contenu */
+  }
+  .text {
+    display: inline-block;
+    animation: typing 4s steps(40, end);
+    /* 
+      La durée de l'animation est de 4 secondes.
+      "steps(40, end)" indique que l'animation se fera en 40 étapes (nombre de caractères dans le texte) avec l'effet "end" qui signifie qu'il s'arrête une fois le texte complet affiché.
+    */
+    overflow: hidden; /* Pour cacher le texte qui n'a pas encore été "tapé" */
+    white-space: nowrap; /* Pour éviter le retour à la ligne pendant l'animation */
+    border-right: 2px solid #000; /* Effet de curseur de machine à écrire */
+    font-size: 20px; /* Vous pouvez ajuster la taille du texte selon vos préférences */
+  }
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }

@@ -1,6 +1,8 @@
 body {
+  min-height: 100vh; /* Assurez-vous que le corps du document occupe au moins la hauteur de l'écran */
   margin: 0;
     font-family: 'Handjet', sans-serif; /* Utilisation de la police Handjet */
+    position: relative;
   }
   
   h1, h2, h3 {
