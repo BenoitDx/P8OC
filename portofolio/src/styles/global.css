@@ -1,20 +1,17 @@
-body {
-  min-height: 100vh; /* Assurez-vous que le corps du document occupe au moins la hauteur de l'écran */
-  margin: 0;
-    font-family: 'Handjet', sans-serif; /* Utilisation de la police Handjet */
-    position: relative;
-  }
-  
-  h1, h2, h3 {
-    font-family: 'Handjet', sans-serif; /* Utilisation de la police Raleway */
-  }
-  
-  p {
-    font-family: 'Handjet', sans-serif; /* Utilisation de la police Roboto */
-  }
+/* global.css */
 
-  .content {
-    position: relative;
-    z-index: 1;
-    ; /* Ajustez la valeur pour l'espace au-dessus du contenu */
-  }
+/* Définir une largeur maximale pour le contenu */
+body {
+  border-radius: 25%;
+
+  max-width: 1280px;
+  margin: 0 auto; /* Centrer le contenu horizontalement */
+}
+
+/* Styliser les éléments de texte */
+p, span, h1, h2, h3, h4, h5, h6, a, button {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 800; /* Appliquer "Extra Bold" aux éléments de texte */
+}
+
+/* Ajoutez d'autres styles globaux si nécessaire */

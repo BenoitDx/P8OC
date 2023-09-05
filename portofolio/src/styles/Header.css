@@ -1,12 +1,16 @@
-/* Header.css */
+
 .Header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 32px;
-    background-color: #f1f1f1;
+    font-size: 20px;
+    background-color: #ffffff;
+    
   }
-  
+  header {
+    
+    background-color: #ffffff;
+  }
   .header-logo {
     display: flex;
     align-items: center;
@@ -25,7 +29,7 @@
   
   nav {
     display: flex;
-    align-items: center; /* Centrer verticalement les éléments du menu */
+    align-items: center; 
     margin-right: 10px;
   }
   
@@ -33,21 +37,33 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Utilisez flex pour aligner les éléments de menu horizontalement */
-    flex-direction: row; /* Définir le sens du flex en ligne (horizontalement) */
+    display: flex; 
+    flex-direction: row; 
   }
   
   nav ul li {
     margin-left: 20px;
   }
   nav ul li a {
-  color: inherit; /* Utilisez "inherit" pour conserver la couleur par défaut du texte */
-  text-decoration: none; /* Supprimez le soulignement des liens */
+  color: inherit; 
+  text-decoration: none; 
+  font-weight: 800;
 }
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 3; /* Assurez-vous que le header est au-dessus du contenu et des étoiles */
+    z-index: 3; 
   }
+
+nav ul li a {
+  color: black; 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+
+nav ul li a.active {
+  color: gray; 
+}
