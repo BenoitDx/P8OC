@@ -9,7 +9,7 @@
 }
 
 .ligne {
-    height: 650px;
+    height: 1000px;
     width: 8px;
     margin: 0 auto;
     background: #000000;
@@ -33,7 +33,7 @@
 .r1{top: 80px;}
 .r2{top: 386px;}
 .r3{top: 692px;}
-
+.r4{top: 1000px;}
 
 .box {
     
@@ -61,6 +61,11 @@
     top: 692px;
     left: calc(50% - 270px);
 }
+.b4 {
+    top: 1000px;
+    left: calc(50% + 270px);
+}
+
 
 
 .box p {
