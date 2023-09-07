@@ -54,12 +54,13 @@
 .Welcome-scroll {
   font-size: 32px;
   margin-top: 200px;
-  color: grey
+  color: rgb(0, 0, 0);
 }
 /* Welcome.css */
 
 .animated-icon {
   animation: bounce 1s infinite, blink 2s infinite;
+  display: none;
 }
 
 @keyframes bounce {

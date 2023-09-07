@@ -2,8 +2,9 @@ import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
 import Header from './components/Header';
 import Footer from './components/footer';
-import About from './components/About';
+
 import Welcome from './components/Welcome';
+import Skills from './components/Skills';
 import './styles/global.css'; // Importer le fichier global.css
 
 
@@ -12,7 +13,7 @@ function App() {
     <div>
         <Header />
         <Welcome />
-        <About />
+        <Skills />
         <Footer />
     </div>
   );
