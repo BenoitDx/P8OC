@@ -76,12 +76,9 @@
 
 
 .ikon {
-    color:white
+    color:grey
 }
-.logimg {
-    width: 32px;
-    height: 32px;
-}
+
 
 .btn {
     background-color:black;
@@ -95,4 +92,12 @@
 
 .title-skills {
     margin-bottom: 100px;
+}
+.logo {
+    width: 32px;
+    height: 32px;
+    margin: 3px;
+}
+.xplogo {
+    width: 64px;
 }
