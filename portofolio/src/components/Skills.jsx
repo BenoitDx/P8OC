@@ -1,9 +1,7 @@
-import React, { useEffect } from "react";
-import gsap from "gsap";
-import ScrollMagic from "scrollmagic";
+import React from "react";
+import '../styles/Skills.css'
 
-
-// Importez vos logos au format WebP ici
+// Importe les images des logos au format WebP
 import logoHTML from '../asset/logos/html.webp';
 import logoCSS from '../asset/logos/css.webp';
 import logoReact from '../asset/logos/react.webp';
@@ -14,39 +12,15 @@ import logoMongoDB from '../asset/logos/mongodb.webp';
 import logoSQL from '../asset/logos/sql.webp';
 import logoExpressJS from '../asset/logos/expressjs.webp';
 
+import logoSEO from '../asset/logos/seo.webp'
+
 import logoVSCode from '../asset/logos/vscode.webp';
 import logoGit from '../asset/logos/git.webp';
 import logoDocker from '../asset/logos/docker.webp';
 import logoGithub from '../asset/logos/github.webp';
 import logoLinux from '../asset/logos/linux.webp';
 
-import "../styles/Skills.css"; // Assurez-vous d'importer correctement votre fichier CSS
-
 const Skills = () => {
-    useEffect(() => {
-      const allRonds = document.querySelectorAll(".rond");
-      const allBoxes = document.querySelectorAll(".box");
-  
-      const controller = new ScrollMagic.Controller();
-  
-      allBoxes.forEach((box) => {
-        for (let i = 0; i < allRonds.length; i++) {
-          if (allRonds[i].getAttribute("data-anim") === box.getAttribute("data-anim")) {
-            let tween = gsap.from(box, { y: -50, opacity: 0, duration: 0.5 });
-  
-            let scene = new ScrollMagic.Scene({
-              triggerElement: allRonds[i],
-              triggerHook: 0.85, // Ajustez la valeur pour déclencher l'animation à différents points de la page
-              reverse: false, // Assurez-vous que l'animation ne se répète pas
-            })
-              .setTween(tween)
-              .addTo(controller);
-          }
-        }
-      });
-    }, []);
-  // Le tableau vide [] signifie que ce code s'exécute une seule fois après le rendu initial
-
     return (
         <div className="box-timeline">
             <div className="ligne"></div>
@@ -89,6 +63,8 @@ const Skills = () => {
                 <p>
                     Je m'intéresse à l'optimisation pour les moteurs de recherche (SEO) pour améliorer la visibilité en ligne et maximiser la performance des sites web.
                 </p>
+                {/* Logo SEO */}
+                <img src={logoSEO} alt="SEO Logo" className="logo" />
             </div>
             <div className="box b4" data-anim="4">
                 <h2>Environnement et outils</h2>

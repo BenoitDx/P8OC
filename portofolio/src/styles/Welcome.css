@@ -12,6 +12,36 @@
 .Welcome-title {
   font-size: 32px;
 }
+.Welcome-title {
+  overflow: hidden; /* Masque le texte débordant */
+  white-space: nowrap; /* Empêche le texte de passer à la ligne */
+ 
+  border-right: 2px solid transparent; /* Ajoutez un curseur clignotant simulé */
+  animation: typing 3s steps(40), blink-caret 0.5s 3s steps(40);
+}
+
+/* Animation d'écriture */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Curseur clignotant */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(0, 0, 0); /* Couleur du curseur clignotant */
+  }
+}
+
+
 
 .Welcome-mention {
   font-size: 22px;
