@@ -5,7 +5,9 @@ import Footer from './components/footer';
 
 import Welcome from './components/Welcome';
 import Skills from './components/Skills';
+import Project from './components/Project';
 import './styles/global.css'; // Importer le fichier global.css
+import Carousel from './components/Carousel';
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
         <Header />
         <Welcome />
         <Skills />
+        <Project />
+        <Carousel />
         <Footer />
     </div>
   );
