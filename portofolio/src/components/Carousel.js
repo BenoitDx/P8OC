@@ -1,5 +1,9 @@
 import React from 'react';
-
+import imgBooki from '../asset/booki.webp'
+import imgSophie from '../asset/sophie.webp'
+import imgNina from '../asset/booki.webp'
+import imgLocation from '../asset/location.webp'
+import imgLivre from '../asset/booki.webp'
 
 import '../styles/carousel.scss'
 
