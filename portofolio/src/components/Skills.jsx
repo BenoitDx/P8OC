@@ -31,7 +31,7 @@ const Skills = () => {
             <div className="rond r4" data-anim="4"><i className="fa-solid fa-laptop-code ikon"></i></div>
             
             <div className="box b1" data-anim="1">
-                <h2>Front-End</h2>
+                <h2 className="title-skills">Front-End</h2>
                 <p>
                     À l'aise avec HTML, CSS, React et JavaScript, je crée des interfaces web conviviales pour offrir de bonnes expériences aux utilisateurs.
                 </p>
@@ -45,7 +45,7 @@ const Skills = () => {
                 <img src={logoJavaScript} alt="JavaScript Logo" className="logo" />
             </div>
             <div className="box b2" data-anim="2">
-                <h2>Back-End</h2>
+                <h2 className="title-skills">Back-End</h2>
                 <p>
                     Je travaille avec Node.js, MongoDB, MySQL et Express.js pour soutenir le développement d'applications web robustes.
                 </p>
@@ -59,7 +59,7 @@ const Skills = () => {
                 <img src={logoExpressJS} alt="Express.js Logo" className="logo xplogo" />
             </div>
             <div className="box b3" data-anim="3">
-                <h2> SEO</h2>
+                <h2 className="title-skills"> SEO</h2>
                 <p>
                     Je m'intéresse à l'optimisation pour les moteurs de recherche (SEO) pour améliorer la visibilité en ligne et maximiser la performance des sites web.
                 </p>
@@ -67,7 +67,7 @@ const Skills = () => {
                 <img src={logoSEO} alt="SEO Logo" className="logo" />
             </div>
             <div className="box b4" data-anim="4">
-                <h2>Environnement et outils</h2>
+                <h2 className="title-skills">Environnement et outils</h2>
                 <p>
                     J'utilise des outils tels que VSCode, Git, Docker, et des environnements Windows/Linux pour faciliter mon travail de développement.
                 </p>

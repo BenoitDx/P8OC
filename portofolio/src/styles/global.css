@@ -1,20 +1,17 @@
-/* global.css */
 
-/* Définir une largeur maximale pour le contenu */
 body {
   border-radius: 25%;
 
   max-width: 1280px;
-  margin: 0 auto; /* Centrer le contenu horizontalement */
+  margin: 0 auto; 
 }
 
-/* Styliser les éléments de texte */
+
 p, span, h1, h2, h3, h4, h5, h6, a, button {
   font-family: 'Inter', Arial, sans-serif;
-  font-weight: 800; /* Appliquer "Extra Bold" aux éléments de texte */
+  font-weight: 800; 
 }
 
-/* Ajoutez d'autres styles globaux si nécessaire */
 .Carousel {
   box-shadow: 0 10px 15px rgba(0,0,0,0.5);
 }
