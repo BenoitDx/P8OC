@@ -14,9 +14,9 @@ const DeveloperPresentation = () => {
         <button className='Welcome-button'>Contacter-moi</button>
       </div>
       <div className='Welcome-icon'>
-        <i class="fa-solid fa-code"></i>
-        <i class="fa-solid fa-gear"></i>
-        <i class="fa-solid fa-terminal"></i>
+        <i className="fa-solid fa-code"></i>
+        <i className="fa-solid fa-gear"></i>
+        <i className="fa-solid fa-terminal"></i>
       </div>
     </div>
     <div className='Welcome-scroll'>

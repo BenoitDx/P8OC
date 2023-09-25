@@ -13,19 +13,19 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <NavLink exact to="/" activeClassName="active">Accueil</NavLink>
+            <NavLink exact="true" to="/" activeclassname="active">Accueil</NavLink>
             </li>
             <li>
-              <NavLink to="/about" activeClassName="active">Mes compétences</NavLink>
+            <NavLink exact="true" to="/about" activeclassname="active">Mes compétences</NavLink>
             </li>
             <li>
-              <NavLink to="/projects" activeClassName="active">Mes Projets</NavLink>
+            <NavLink exact="true" to="/projects" activeclassname="active">Mes Projets</NavLink>
             </li>
             <li>
-            <NavLink to="/contact" activeClassName="active" onClick={() => contactFormRef.current.scrollIntoView({ behavior: 'smooth' })}>Contact</NavLink>
+            <NavLink exact="true" to="/contact" activeclassname="active" onClick={() => contactFormRef.current.scrollIntoView({ behavior: 'smooth' })}>Contact</NavLink>
             </li>
             <li>
-              <NavLink to="/langue" activeClassName="active">Dark mode</NavLink>
+            <NavLink exact="true" to="/langue" activeclassname="active">Dark mode</NavLink>
             </li>
           </ul>
         </nav>
