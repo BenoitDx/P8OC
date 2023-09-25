@@ -1,5 +1,4 @@
 import React from "react";
-import booki from '../asset/booki.webp'
 import '../styles/Project.css'
 
 

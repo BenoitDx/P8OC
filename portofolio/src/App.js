@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Project from './components/Project';
 import './styles/global.css'; // Importer le fichier global.css
 import Carousel from './components/Carousel';
+import ContactForm from './components/Contactform';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <Project />
         <Carousel />
+        <ContactForm />
         <Footer />
     </div>
   );
